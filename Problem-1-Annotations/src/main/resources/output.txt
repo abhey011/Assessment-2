@@ -1,0 +1,118 @@
+Classes in the package:
+com.example.documentation.Doctor
+com.example.documentation.Employee
+com.example.documentation.Lawyer
+com.example.documentation.Nurse
+com.example.documentation.Student
+
+Classes with @annotation.ClassDocumentation:
+com.example.documentation.Doctor
+com.example.documentation.Lawyer
+com.example.documentation.Nurse
+com.example.documentation.Student
+
+Methods with @annotation.MethodDocumentation:
+public void com.example.documentation.Lawyer.lawyerMethod2()
+public void com.example.documentation.Lawyer.lawyerMethod1()
+public void com.example.documentation.Nurse.nurseMethod1()
+public void com.example.documentation.Nurse.nurseMethod2()
+public void com.example.documentation.Employee.employeeMethod1()
+public void com.example.documentation.Doctor.doctorMethod1()
+public void com.example.documentation.Employee.employeeMethod2()
+public void com.example.documentation.Doctor.doctorMethod2()
+public void com.example.documentation.Student.studentMethod1()
+public void com.example.documentation.Student.studentMethod2()
+
+Classes with javadoc:
+Class: com.example.documentation.Nurse
+Javadoc:
+
+ * Nurse javadoc
+ 
+-------------------------------
+Class: com.example.documentation.Employee
+Javadoc:
+
+ * Employee javadoc
+ 
+-------------------------------
+Class: com.example.documentation.Lawyer
+Javadoc:
+
+ * Lawyer javadoc
+ 
+-------------------------------
+Class: com.example.documentation.Student
+Javadoc:
+
+ * Student javadoc
+ 
+-------------------------------
+
+Class with annotation but no javadoc:
+Class: com.example.documentation.Doctor
+
+Class with javadoc but no annotation:
+Class: com.example.documentation.Employee
+
+Methods with javadoc:
+Method: public void nurseMethod1()
+Javadoc:
+
+     * nurseMethod1 javadoc
+     
+-------------------------------
+Method: public void nurseMethod2()
+Javadoc:
+
+     * nurseMethod2 javadoc
+     
+-------------------------------
+Method: public void employeeMethod1()
+Javadoc:
+
+     * employeeMethod1 javadoc
+     
+-------------------------------
+Method: public void employeeMethod2()
+Javadoc:
+
+     * employeeMethod2 javadoc
+     
+-------------------------------
+Method: public void lawyerMethod1()
+Javadoc:
+
+     * lawyerMethod1 javadoc
+     
+-------------------------------
+Method: public void lawyerMethod2()
+Javadoc:
+
+     * lawyerMethod2 javadoc
+     
+-------------------------------
+Method: public void studentMethod1()
+Javadoc:
+
+     * studentMethod1 javadoc
+     
+-------------------------------
+Method: public void studentMethod2()
+Javadoc:
+
+     * studentMethod2 javadoc
+     
+-------------------------------
+Method: public void doctorMethod1()
+Javadoc:
+
+     * doctorMethod1 javadoc
+     
+-------------------------------
+Method: public void doctorMethod2()
+Javadoc:
+
+     * doctorMethod2 javadoc
+     
+-------------------------------
