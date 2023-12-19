@@ -14,7 +14,6 @@ import org.reflections.scanners.SubTypesScanner;
 import org.reflections.util.ClasspathHelper;
 import org.reflections.util.ConfigurationBuilder;
 import org.reflections.util.FilterBuilder;
-
 import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -34,7 +33,7 @@ public class FindAnnotated {
 
     public static void main(String[] args) throws IOException {
 
-        String filePath = "C:\\Assessment-2\\Problem-1-Annotations\\src\\main\\resources\\output.txt";
+        String filePath = "C:\\Assessmentt-2\\Problem-1-Annotations\\src\\main\\resources\\output.txt";
 
         try(FileOutputStream fileOutputStream = new FileOutputStream(filePath);
             PrintStream printStream = new PrintStream(fileOutputStream)) {
